@@ -10,9 +10,10 @@ import { AlertTriangle } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Input } from "@/components/ui/input";
-import { Pagination } from "@/components/Pagination";
+
 import Link from "next/link";
 import { useDebounceValue } from "usehooks-ts";
+import { Pagination } from "@/components/Pagination";
 
 export default function Dashboard() {
   const { user } = useUser();
